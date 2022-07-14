@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinamicas</H1>
+    <p>Tente abrir esse site em varios dispositvos diferentes.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+   </picture>
+
+   <h1>Reproduzindo audio</h1>
+   <p>Vamos aprender a tocar audio em HTML5 </p>
+   <audio preload="metadata" autoplay controls loop> 
+       <source src="midia/As You Fade Away - NEFFEX.mp3" type="audio/mpeg">
+    
+   </audio>
+
+   <h1>Videos hospedados localmente</h1>
+   <p>Esté video está no meu proprio servidor</p>
+   <video src="midia/3207126058.mp4" width="560" controls poster="imagens/media.png"></video>
+<h1>Videos do Youtoba</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/nxM1cnphLpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1>Videos do vimel</h1>
+<iframe src="https://player.vimeo.com/video/381624926?h=f5935d10db&autoplay=1&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
