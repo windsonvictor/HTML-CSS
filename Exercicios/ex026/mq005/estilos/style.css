@@ -18,7 +18,7 @@ text-align: center;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -34,6 +34,19 @@ menu > ul > li > a {
     text-align: center;
     border-top: 2px solid gray;
 
+}
+i#burguer {
+    background-color: rgb(49, 49, 49);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 menu > ul > li > a:hover{
